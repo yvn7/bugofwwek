@@ -1,0 +1,29 @@
+name: "Lab Workshop"
+navbar:
+  title: ""
+  subtitle: Supplementary Information
+  Date: "April 25th 2022"
+  left: # left side of the header
+  - text: "Introduction"
+    href: index.html
+  - text: "Workshop 1: Github"
+    href: 
+  - text: "Workshop 2: RMarkdown"
+    href: 
+  right: # right side of the header
+  - icon: fa-github # icon of GitHub
+    text: Bug of the week
+    href: https://github.com/bugoftheweek # You can also have a http address 
+      
+output:
+  html_document:
+    toc: true # table of content true
+    toc_float: # have a table of content at the left side
+      collapsed: true # default true, only show up tp level 2 unless click to expand
+      smooth_scroll: true # animated the page to the clicked item
+    depth: 6  # up to three depths of headings (specified by #, ## and ###)
+    number_sections: false  #  number sections at each table header
+    theme: flatly # theme for fonts and colours
+    highlight: tango # different theme for the appearance of the code
+code_folding: hide
+output_dir: "../docs"
