@@ -1,6 +1,6 @@
 ---
 title: "index"
-author: "Kei-Lin and Silvia"
+author: "Kei-Lin & Y"
 date: "06/05/2022"
 output: html_document
 self_contained: yes

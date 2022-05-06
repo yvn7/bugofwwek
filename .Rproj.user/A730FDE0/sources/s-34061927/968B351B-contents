@@ -1,0 +1,45 @@
+---
+title: "index"
+author: "Kei-Lin and Silvia"
+date: "06/05/2022"
+output: html_document
+self_contained: yes
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "../docs") })
+---
+Here is your template for making a RMakrdown webpage. You can just delete this and make a new one.
+
+# self_contained: true
+
+## Header 2 {.tabset .tabset-fade .tabset-pills}
+
+### Header 3.1 
+bla bla bla i love pigeons
+
+### Header 3.2
+bla bla bla pigeons are cool
+
+# Here, you will get two tabs which are "Header 3.1" and "Header 3.2"
+
+[Kei-Lin](https://en.wikipedia.org/wiki/Hashtag)
+
+# For example, if in the same folder 
+# [Workshop 1: Github](workshopGithub.html) 
+# Or [Bug of the week](https://github.com/bugoftheweek)
+
+
+
+
+
+```{r, message=FALSE, eval=FALSE}
+
+print("apple")
+
+```
+
+
+
+
+
+
+
